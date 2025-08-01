@@ -16,3 +16,13 @@ url = tag[9:46]
 print (url)
 # see? it means select characters from 9 to 46 from tag
 # this is called slicing
+
+# let's make it more interesting
+# index() will help us find that 9 and 46 without any problems
+
+start = "http"
+end = '">'
+
+url2 = tag[tag.index(start) : tag.index(end)]
+print (url2)
+# see? that's better
