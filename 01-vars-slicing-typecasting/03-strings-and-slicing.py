@@ -10,3 +10,9 @@ tag = '<a href="https://github.com/aliaryani-security">Github page</a>'
 # in the example above, we cannot use double
 # quotes, since we have a pair of double quotes
 # right in the middle of our string! in href value
+
+# let us do some slicing now 
+url = tag[9:46]
+print (url)
+# see? it means select characters from 9 to 46 from tag
+# this is called slicing
